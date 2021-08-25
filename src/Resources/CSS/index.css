@@ -31,4 +31,40 @@
    font-weight: 300;
  }
 
+ @font-face {
+     font-family: ShabnamDigits;
+     src: url('./../Fonts/digits/Shabnam-FD-WOL.eot');
+     src: url('./../Fonts/digits/Shabnam-FD-WOL.eot?#iefix') format('embedded-opentype'),
+          url('./../Fonts/digits/Shabnam-FD-WOL.woff2') format('woff2'),
+          url('./../Fonts/digits/Shabnam-FD-WOL.woff') format('woff'),
+          url('./../Fonts/digits/Shabnam-FD-WOL.ttf') format('truetype');
+     font-weight: normal;
+   }
+   
+   @font-face {
+     font-family: ShabnamDigits;
+     src: url('./../Fonts/digits/Shabnam-Bold-FD-WOL.eot');
+     src: url('./../Fonts/digits/Shabnam-Bold-FD-WOL.eot?#iefix') format('embedded-opentype'),
+          url('./../Fonts/digits/Shabnam-Bold-FD-WOL.woff2') format('woff2'),
+          url('./../Fonts/digits/Shabnam-Bold-FD-WOL.woff') format('woff'),
+          url('./../Fonts/digits/Shabnam-Bold-FD-WOL.ttf') format('truetype');
+     font-weight: bold;
+   }
+
+ @font-face {
+     font-family: ShabnamDigits;
+     src: url('./../Fonts/digits/Shabnam-Light-FD-WOL.eot');
+     src: url('./../Fonts/digits/Shabnam-Light-FD-WOL.eot?#iefix') format('embedded-opentype'),
+          url('./../Fonts/digits/Shabnam-Light-FD-WOL.woff2') format('woff2'),
+          url('./../Fonts/digits/Shabnam-Light-FD-WOL.woff') format('woff'),
+          url('./../Fonts/digits/Shabnam-Light-FD-WOL.ttf') format('truetype');
+     font-weight: 300;
+}
+
 @tailwind utilities;
+
+@layer utilities {
+     .rtl-direction {
+          direction : rtl !important;
+     }
+}

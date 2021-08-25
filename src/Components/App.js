@@ -1,9 +1,12 @@
+import Header from './Layouts/Header';
+import QAList from './QA/QAList';
 function App() {
   return (
-    <div className="bg-gray-600 h-screen text-white">
-      <h2 className="font-Shabnam">
-        تست فونت فارسی
-      </h2>
+    <div>
+      <Header />
+      <section className='container mx-auto mt-8'>
+        <QAList />
+      </section>
     </div>
   );
 }
