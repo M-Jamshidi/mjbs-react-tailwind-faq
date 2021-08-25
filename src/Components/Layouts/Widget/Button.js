@@ -1,8 +1,9 @@
 export default function Button(props) {
+
    let bgColor = props.bgColor ? props.bgColor : 'bg-white';
    let color = props.color ? props.color : 'text-white';
    let bColor = props.bColor ? props.bColor + ' border' : '';
-   console.log(bgColor, color, bColor);
+
    return (
       <>
          {
