@@ -12,6 +12,7 @@ function QA(props) {
          <div className='flex flex-row-reverse items-center justify-between bg-white py-2 px-4 rounded-md shadow-nav'>
             <div className='flex flex-row-reverse items-center'>
                <Avatar img={data.avatar} height='8'/>
+               <h2 className='mr-4 rtl-direction font-bold'>{data.title}</h2>
             </div>
             <div className='flex flex-row-reverse items-center text-mainGrayDarkColor'>
                <div className='flex flex-row-reverse'>
@@ -60,8 +61,17 @@ function QA(props) {
             </div>
          </div>
 
-         {/* body of the card */}
-         <div className='px-4 py-4 rtl-direction leading-6' dangerouslySetInnerHTML={{ __html: data.body }}></div>
+         {/* description and body of the card */}
+         {
+            data.description 
+            ? <div className='px-4 py-4 rtl-direction leading-6' dangerouslySetInnerHTML={{ __html: data.description }}></div>
+            : ''
+         }
+         {
+            data.body
+            ? <div className='px-4 py-4 rtl-direction leading-6' dangerouslySetInnerHTML={{ __html: data.body }}></div>
+            : ''
+         }
 
          {/* footer of the card */}
          {

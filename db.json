@@ -1,0 +1,150 @@
+{
+   "questions": [
+      {
+         "id": 1,
+         "title": "مشکل در اجرای cmd",
+         "slug": "مشکل_در_اجرای_cmd",
+         "avatar": "https://static.roocket.ir/images/avatar/2021/4/17/iq5eICsbaGqWVbTH9xKlkkdWFdKVPh5dCEqZQw8r.png",
+         "time": "16:50",
+         "date": "1400/12/05",
+         "commentCount": "20",
+         "description": "<p>سلام وقت بخیر من نمی تونم برنامه های پایتون در cmd احرا کنم cmd باز میشه وقتی بهش ورودی میدم و enter می زنم خود به خود بسته میشه، ممنون میشم راهنمایی بفرمایید.</p>",
+         "body": "<p>لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید</p><img style=\"margin:0 auto\" src=\"https://www.linkpicture.com/q/image-2_7.jpg\" alt=\"\" />"
+      },
+      {
+         "id": 2,
+         "title": "بهینه سازی کویری",
+         "slug": "بهینه_سازی_کویری",
+         "avatar": "https://static.roocket.ir/public/images/useravatar/2020/4/4/1586000576.png'",
+         "time": "14:48'",
+         "date": "1400/12/12'",
+         "commentCount": "15'",
+         "description": "<p>سلام دوستان میخام تعداد مقالات سخته شده هر فرد رو نشون بدم منتها دو راهه برم از جدول article بگیرم یا یه ستون به جدول user اضافه کنم و از اون بگیرم ؟</p>",
+         "body": "<p>لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید</p><img style=\"margin:0 auto\" src=\"https://www.linkpicture.com/q/image-2_7.jpg\" alt=\"\" />"
+      },
+      {
+         "id": 3,
+         "title": "اجرای Express Js بر بستر deno js",
+         "slug": "اجرای_Express_Js_بر_بستر_deno_js",
+         "avatar": "https://static.roocket.ir/public/images/useravatar/2020/7/3/1593762905.png'",
+         "time": "08:20'",
+         "date": "1400/12/15'",
+         "commentCount": "23'",
+         "description": "<p>سلام دوستان من برای استفاده از فریم ورک اکسپرس میتونم اون رو روی deno js ران کنم ؟ یا خوده deno یه فریم ورک داره؟ اصلا میشه رانش کرد express رو روی هسته deno js?</p>",
+         "body": "<p>لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید</p><img style=\"margin:0 auto\" src=\"https://www.linkpicture.com/q/image-2_7.jpg\" alt=\"\" />"
+      },
+      {
+         "id": 4,
+         "title": "۴۰۴ در جنگو",
+         "slug": "۴۰۴_در_جنگو",
+         "avatar": "https://static.roocket.ir/public/images/useravatar/2020/11/28/1606578356.png'",
+         "time": "19:33'",
+         "date": "1400/12/25'",
+         "commentCount": "24'",
+         "description": "<p>سلام من تو لود کردن فایل هایی که توی پوشه استاتیک هست دارم فقط فایل هایی که میسازم ینی فایل های فولدر ادمین به صورت کامل لود میشن هیچ مشکلی هم نداره پس ساختار لود استاتیکم درسته ولی هر کار میکنم نمی تونم یه فایل سی اس اس خودمو لود کنم اسم فایل هارم چک کردم اما نمیشه setting.py: # Static files (CSS...</p>",
+         "body": "<p>لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید</p><img style=\"margin:0 auto\" src=\"https://www.linkpicture.com/q/image-2_7.jpg\" alt=\"\" />"
+      },
+      {
+         "id": 5,
+         "title": "GoLang OR NodeJS",
+         "slug": "GoLang_OR_NodeJS",
+         "avatar": "https://static.roocket.ir/images/avatar/2021/7/26/o663an9ZhLzhOndcyePsobLjz9eK0PnerHwhwrD8.png",
+         "time": "16:48",
+         "date": "1400/12/29",
+         "commentCount": "5",
+         "description": "<p>این موضوع رو ایجاد کردم بیشتر برای مشورت گرفتم با شما من ۵ سالی میشه برنامه نویس PHP هستم و با فریم ورک های مختلفش کار می کنم. و البته تو حوزه برنامه نویسی ۱۰ سالی میشه قدم گذاشتم و از c++ , c# , visualbasic ,... کار کردم. این ها رو گفتم صرفا برای اینکه بتونم بگم تازه وارد نیستم و بخوام بر اساس جو و...</p>",
+         "body": "<p>لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت چاپ، صفحه‌آرایی و طراحی گرافیک گفته می‌شود. طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید</p><img style=\"margin:0 auto\" src=\"https://www.linkpicture.com/q/image-2_7.jpg\" alt=\"\" />"
+      }
+   ],
+   "answers" : [
+      {
+         "id": 1,
+         "title": "سید مصطفی",
+         "avatar": "https://static.roocket.ir/images/avatar/2021/4/17/iq5eICsbaGqWVbTH9xKlkkdWFdKVPh5dCEqZQw8r.png",
+         "time": "16:50",
+         "date": "1400/12/05",
+         "positiveAnswer": 43,
+         "negativeAnswer": 5,
+         "body": "<p>متغییر env رو توی فایلت تغییر بده درست میشه</p>",
+         "questionID": 3
+      },
+      {
+         "id": 2,
+         "title": "مجتبی جمشیدی",
+         "slug": "مشکل_در_Auth_در_React2",
+         "avatar": "https://static.roocket.ir/public/images/useravatar/2020/4/4/1586000576.png",
+         "time": "14:48",
+         "date": "1400/12/12",
+         "positiveAnswer": 12,
+         "negativeAnswer": 133,
+         "body": "<p>متغییر env رو توی فایلت تغییر بده درست میشه</p>",
+         "questionID": 1
+      },
+      {
+         "id": 3,
+         "title": "مسعود",
+         "avatar": "https://static.roocket.ir/public/images/useravatar/2020/7/3/1593762905.png",
+         "time": "08:20",
+         "date": "1400/12/15",
+         "positiveAnswer": 188,
+         "negativeAnswer": 2,
+         "body": "<p>متغییر env رو توی فایلت تغییر بده درست میشه</p>",
+         "questionID": 3
+      },
+      {
+         "id": 4,
+         "title": "حسین زمانی",
+         "avatar": "https://static.roocket.ir/public/images/useravatar/2020/11/28/1606578356.png",
+         "time": "19:33",
+         "date": "1400/12/25",
+         "positiveAnswer": 20,
+         "negativeAnswer": 3,
+         "body": "<p>متغییر env رو توی فایلت تغییر بده درست میشه</p>",
+         "questionID": 2
+      },
+      {
+         "id": 5,
+         "title": "علیرضا احمدی",
+         "avatar": "https://static.roocket.ir/images/avatar/2021/7/26/o663an9ZhLzhOndcyePsobLjz9eK0PnerHwhwrD8.png",
+         "time": "16:48",
+         "date": "1400/12/29",
+         "positiveAnswer": 18,
+         "negativeAnswer": 1,
+         "body": "<p>متغییر env رو توی فایلت تغییر بده درست میشه</p>",
+         "questionID": 2
+      },
+      {
+         "id": 6,
+         "title": "مسعود",
+         "avatar": "https://static.roocket.ir/public/images/useravatar/2020/7/3/1593762905.png",
+         "time": "08:20",
+         "date": "1400/12/15",
+         "positiveAnswer": 188,
+         "negativeAnswer": 2,
+         "body": "<p>متغییر env رو توی فایلت تغییر بده درست میشه</p>",
+         "questionID": 4
+      },
+      {
+         "id": 7,
+         "title": "حسین زمانی",
+         "avatar": "https://static.roocket.ir/public/images/useravatar/2020/11/28/1606578356.png",
+         "time": "19:33",
+         "date": "1400/12/25",
+         "positiveAnswer": 20,
+         "negativeAnswer": 3,
+         "body": "<p>متغییر env رو توی فایلت تغییر بده درست میشه</p>",
+         "questionID": 4
+      },
+      {
+         "id": 8,
+         "title": "علیرضا احمدی",
+         "avatar": "https://static.roocket.ir/images/avatar/2021/7/26/o663an9ZhLzhOndcyePsobLjz9eK0PnerHwhwrD8.png",
+         "time": "16:48",
+         "date": "1400/12/29",
+         "positiveAnswer": 18,
+         "negativeAnswer": 1,
+         "body": "<p>متغییر env رو توی فایلت تغییر بده درست میشه</p>",
+         "questionID": 4
+      }
+   ]
+}

@@ -108,7 +108,7 @@ class QAShow extends Component {
                </h2>
                <p className='text-sm mt-4'>پاسخ خود را بنویسید</p>
                <textarea
-                  className='w-full border border-secondaryBorderColor rounded-md py-2 px-4 mt-3 text-sm font-light'
+                  className='w-full border border-secondaryBorderColor rounded-md py-2 px-4 mt-3 text-sm font-light focus:outline-none'
                   rows={5}
                   placeholder='متن پاسخ ...'
                ></textarea>
@@ -116,7 +116,7 @@ class QAShow extends Component {
 
                <div className='w-max mt-6'>
                   <Button link={`/`} bgColor='bg-mainGreenColor' color="text-white"> 
-                     <span className='mr-4'>ارسال پاسخ</span>
+                     <span>ارسال پاسخ</span>
                   </Button>
                </div>
             </div>
