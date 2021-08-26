@@ -15,6 +15,9 @@ module.exports = {
         'mainDarkColor' : '#222222',
         'mainGrayDarkColor' : '#777777',
         'mainGrayDarkerColor' : '#454545',
+        'mainBorderColor' : '#E4E9EC',
+        'mainRedColor' : '#F16063',
+        'secondaryBorderColor' : '#EEEEEE',
       },
       boxShadow: {
         'nav' : '0px 3px 50px -1px #3232470D',
