@@ -8,7 +8,7 @@ class QACreate extends React.PureComponent{
 
    state = {
       title: '',
-      body: ''
+      body: '',
    }
 
    onTitleChange = (e) => {
@@ -20,13 +20,16 @@ class QACreate extends React.PureComponent{
    }
 
    storeQuestion = () => {
+
+      let d = new Date();
+      let today = new Date().toLocaleDateString('fa-IR');
       
       const question = {
          "title": this.state.title,
          "slug": this.state.title.replace(/ /g,"_"),
          "avatar": "https://i.pravatar.cc/50",
-         "time": "19:33",
-         "date": "1400/12/25",
+         "time": d.getHours() + ':' + d.getMinutes(),
+         "date": today,
          "commentCount": 0,
          "description": this.state.body,
          "body": this.state.body

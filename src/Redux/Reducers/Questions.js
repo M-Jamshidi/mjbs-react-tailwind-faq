@@ -6,11 +6,11 @@ const questionsData = (preState = initialState, action) => {
    switch(action.type) {
       case('GET_QUESTIONS') :
          return {
-            questions: action.questions
+            ...preState,
+            questions: action.questions,
          };
       case('ADD_QUESTION'): 
          let questions = [
-            ...preState.questions,
             {
                id: action.data.id,
                title: action.data.title,
@@ -21,14 +21,13 @@ const questionsData = (preState = initialState, action) => {
                commentCount: action.data.commandCount,
                description: action.data.description,
                body: action.data.body
-            }
+            },
+            ...preState.questions
          ];
-
-         
 
          return {
             ...preState,
-            questions: questions.map((item)=>{return {...item}})
+            questions: questions
             // questions: questions.map((item)=>{return {...item,commentCount:item.commentCount+1}})
          }
       default:
