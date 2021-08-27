@@ -15,10 +15,19 @@ export default function Button(props) {
 
    return (
       <>
-            <Link className={`${color} ${bColor} rounded-md py-2 px-4 font-Shabnam text-sm flex ${bgColor} ${hColor} ${bgHoverColor} duration-300 transition-colors flex items-center`}
-               to={props.link}>
-                  {props.children}
-            </Link>
+            {
+               props.link 
+               ? <Link className={`${color} ${bColor} rounded-md py-2 px-4 font-Shabnam text-sm flex ${bgColor} ${hColor} ${bgHoverColor} duration-300 transition-colors flex items-center`}
+                     to={props.link}>
+                        {props.children}
+                  </Link> 
+               : <button 
+                     onClick = {props.func ?? ''}
+                     className={`${color} ${bColor} rounded-md py-2 px-4 font-Shabnam text-sm flex ${bgColor} ${hColor} ${bgHoverColor} duration-300 transition-colors flex items-center`}
+                  > 
+                     {props.children}
+                  </button>
+            }
       </>
    )
 }

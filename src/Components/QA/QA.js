@@ -4,6 +4,7 @@ import Avatar from '../Layouts/Widget/Avatar';
 function QA(props) {
 
    let data = props.data;
+   let showDetails = props.showDetails ?? false;
 
    return(
       <div className='shadow-box bg-mainLightestColor mt-4 rounded-md font-Shabnam text-sm'>
@@ -63,12 +64,12 @@ function QA(props) {
 
          {/* description and body of the card */}
          {
-            data.description 
+            data.description && !showDetails
             ? <div className='px-4 py-4 rtl-direction leading-6' dangerouslySetInnerHTML={{ __html: data.description }}></div>
             : ''
          }
          {
-            data.body
+            data.body && showDetails
             ? <div className='px-4 py-4 rtl-direction leading-6' dangerouslySetInnerHTML={{ __html: data.body }}></div>
             : ''
          }

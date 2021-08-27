@@ -29,8 +29,8 @@ Modal.setAppElement('#root');
 
 function App() {
 
-  const [title, setTitle] = useState('لیست سوالات')
-  const [modalIsOpen, setIsOpen] = React.useState(false);
+  const [title, setTitle] = useState('لیست سوالات');
+  const [modalIsOpen, setIsOpen] = useState(false);
 
   function openModal() {
     setIsOpen(true);
@@ -40,20 +40,22 @@ function App() {
     setIsOpen(false);
   }
 
+  function setHeaderTitle(title) {
+    setTitle(title);
+  }
+
   return (
     <div className='flex flex-col justify-between h-full'>
-
-      <button onClick={openModal}>Open Modal</button>
 
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         style={customStyles}
       >
-        <QACreate />
+        <QACreate closeModal={closeModal}/>
       </Modal>
 
-      <Header title={title}/>
+      <Header title={title} openModal={openModal}/>
 
       <section className='container mx-auto my-8 flex-grow'>
         <Switch>
