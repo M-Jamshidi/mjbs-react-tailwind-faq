@@ -3,12 +3,19 @@ import QA from './QA';
 import Button from './../Layouts/Widget/Button';
 import Loading from '../Layouts/Widget/Loading';
 import axios from 'axios';
+import {connect} from 'react-redux';
+import {changeHeaderTitle} from './../../Redux/Actions';
 
 class QAShow extends Component {
    state = {
       question: {},
       answers: [],
       loading: true
+   }
+
+   constructor(props) {
+      super(props);
+      this.props.dispatch(changeHeaderTitle('جزئیات سوال'));
    }
 
    componentDidMount() {
@@ -37,6 +44,10 @@ class QAShow extends Component {
       })
       
       .catch(error => console.log('error', error));
+      
+   }
+
+   incrementPositiveAnswer(answerId) {
       
    }
 
@@ -102,4 +113,4 @@ class QAShow extends Component {
    }
 }
 
-export default QAShow;
+export default connect()(QAShow);

@@ -29,7 +29,6 @@ Modal.setAppElement('#root');
 
 function App() {
 
-  const [title, setTitle] = useState('لیست سوالات');
   const [modalIsOpen, setIsOpen] = useState(false);
 
   function openModal() {
@@ -38,10 +37,6 @@ function App() {
 
   function closeModal() {
     setIsOpen(false);
-  }
-
-  function setHeaderTitle(title) {
-    setTitle(title);
   }
 
   return (
@@ -55,7 +50,7 @@ function App() {
         <QACreate closeModal={closeModal}/>
       </Modal>
 
-      <Header title={title} openModal={openModal}/>
+      <Header openModal={openModal}/>
 
       <section className='container mx-auto my-8 flex-grow'>
         <Switch>
